@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Text Box Over Image</title>
+	<style type="text/css">
+		.container {
+			position: relative;
+			display: inline-block;
+		}
+
+		.image {
+			display: block;
+			width: 100%;
+			height: auto;
+		}
+
+		.textbox {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			background-color: rgba(255, 255, 255, 0.7);
+			padding: 10px;
+			border-radius: 5px;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<img class="image" src="komi 3.jpg">
+		<div class="textbox">
+			<input type="text" placeholder="Enter Text Here">
+		</div>
+	</div>
+</body>
+</html>

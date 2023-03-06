@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index 1</title>
+</head>
+<body style="margin: 0; padding: 0; width: 100%;">
+    <h1>This is index 1</h1>
+    <h2>of my self paced <u><i><b>WebDev</b></i></u> learning website</h2>
+    <h3>Lets get stuff rollin!</h3>
+    <br>
+
+    <section style="background-color: aqua;">
+
+    <img src="komi 9.jpg" alt="komi-2 img" width="49%" title="komi shouko">
+    <img src="kitagawa marin.jpg" alt="kitagawa img" width="50%" title="kitagawa marin">
+    <section style="text-align: center;">
+    <h2>Which waifu do you choose ? <br> <pre><button id="btn1">Komi</button>                 <button id="btn2">Kitagawa</button> </pre> </h2>
+    <pre><h2 style="color: blue; text-align: center;"> <b>Komi</b> Clicked <span id="display1" style="color: black;">0</span> Times       <b>Kitagawa</b> Clicked <span id="display2" style="color: black;">0</span> Times</h2></pre>
+    </section>
+    <!-- <p><b>Kitagawa</b> Clicked <span id="display2">0</span> Times</p> -->
+
+    <script type="text/javascript">
+        var count1 = 0;
+        var btn1 = document.getElementById("btn1");
+        var disp1 = document.getElementById("display1");
+        btn1.onclick = function () {
+            count1++;
+            disp1.innerHTML = count1;
+        }
+    </script>
+
+    <script type="text/javascript">
+        var count2 = 0;
+        var btn2 = document.getElementById("btn2");
+        var disp2 = document.getElementById("display2");
+        btn2.onclick = function () {
+            count2++;
+            disp2.innerHTML = count2;
+        }
+    </script>
+
+    </section>
+    <hr><br>
+    <!-- <img src="komi 3.jpg" alt="komi-3 img" width="1490" title="komi-tadano"> -->
+
+    <section>
+    <div class="container">
+		<img class="image" src="komi 3.jpg">
+		<div class="text">Do you look at me the way I look at you?</div>
+	</div>
+
+    <style type="text/css">
+		.container {
+			position: relative;
+			display: inline-block;
+            width: 100%;
+		}
+
+		.image {
+			display: block;
+			width: 100%;
+			height: auto;
+		}
+
+		.text {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			color: rgb(255, 255, 255);
+            font-family: cursive;
+			font-size: 28px;
+			font-weight: bold;
+			text-align: center;
+			text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+		}
+	</style>
+    </section>
+
+    <hr><br>
+    
+    <section style="background-color: peachpuff; margin: 5%; padding: 10%; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br>Odit error recusandae explicabo ipsum? Dolor maxime, quia deserunt ratione autem dolores.</p>
+    <hr>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias, voluptates placeat? Beatae nam consequatur minima repellat voluptates fugit blanditiis! <br>Veritatis fugiat numquam tempore dolorum soluta laboriosam similique iste rem ab.</p>
+    <hr>
+    <pre>   <h3>Lorem ipsum dolor</h3>
+    sit amet consectetur
+    adipisicing elit. 
+        Dolorem, quaerat! Doloribus, vitae?
+    Atque quos, at totam quisquam repellendus laboriosam
+    est mollitia nemo
+        vel vero excepturi
+    possimus ea.
+    Vero, nam nobis?
+    </pre>
+    <hr>
+    <p>C + O <sub>2</sub> &#8594; CO<sub>2</sub></p><hr>
+    </section>
+</body>
+</html>

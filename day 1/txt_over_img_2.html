@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Text Over Image</title>
+	<style type="text/css">
+		.container {
+			position: relative;
+			display: inline-block;
+		}
+
+		.image {
+			display: block;
+			width: max-content;
+			height: auto;
+		}
+
+		.text {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			color: white;
+            font-family: cursive;
+			font-size: 28px;
+			font-weight: bold;
+			text-align: center;
+			text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<img class="image" src="komi 3.jpg">
+		<div class="text">Do you look at me the way I look at you?</div>
+	</div>
+</body>
+</html>
