@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <div>
+        <h1>Travel Form</h1>
+        <form action="form.php">
+            <input type="text" placeholder="Enter Name"><br>
+            Choose which section :
+            <label for="sectionida">
+                <input type="radio" value="section a" name="section" id="sectionida"> Section A
+            </label>
+            <label for="sectionidb">
+                <input type="radio" value="section a" name="section" id="sectionidb"> Section B
+            </label>
+            <label for="sectionidc">
+                <input type="radio" value="section a" name="section" id="sectionidc"> Section C
+            </label><br>
+            <label for="dob">
+                Enter date of birth:
+                <input type="date" name="dateofbirth" id="dob">
+            </label><br>
+            Do you want canteen food :
+            <label for="foody">
+                <input type="checkbox" value="yes" name="canteenfood" id="foody">Yes
+            </label>
+            <label for="foodn">
+                <input type="checkbox" value="no" name="canteenfood" id="foodn">No
+            </label>
+        </form>
+    </div>
+</body>
+</html>
